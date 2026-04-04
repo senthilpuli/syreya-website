@@ -1295,3 +1295,29 @@ ul { list-style: none; }
 .hero {
   background: #080808; /* same dark base */
 }
+/* Tablet */
+@media (max-width: 1024px) {
+  ...
+}
+
+/* Mobile 🔥 */
+@media (max-width: 768px) {
+  .hero-right {
+    height: auto;
+  }
+
+  .hero-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .hero-img-wrap {
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
