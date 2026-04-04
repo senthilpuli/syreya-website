@@ -1303,20 +1303,20 @@ ul { list-style: none; }
 /* Mobile 🔥 */
 @media (max-width: 768px) {
   .hero-right {
-    height: auto;
+    height: auto !important;
   }
 
   .hero-img {
-    position: relative;
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
   }
 
   .hero-img-wrap {
-    height: auto;
-    padding: 20px;
-    display: flex;
+    height: auto !important;
+    padding: 20px !important;
+    display: flex !important;
     justify-content: center;
     align-items: center;
   }
